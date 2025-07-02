@@ -1,0 +1,68 @@
+{
+  "name": "Flexbox Generator - Professional Tool for Developers",
+  "short_name": "Flexbox Generator",
+  "description": "Interactive Flexbox Generator with Tailwind CSS support, presets, and responsive preview",
+  "version": "1.0.0",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#10b981",
+  "orientation": "any",
+  "scope": "/",
+  "lang": "th",
+  "dir": "ltr",
+  "categories": ["developer tools", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iMjQiIGZpbGw9IiMxMTE4MjciLz4KPHJlY3QgeD0iMjQiIHk9IjI0IiB3aWR0aD0iMTQ0IiBoZWlnaHQ9IjE0NCIgcng9IjEyIiBmaWxsPSIjMTBiOTgxIi8+CjxyZWN0IHg9IjQ4IiB5PSI0OCIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNCIgZmlsbD0iIzExMTgyNyIvPgo8cmVjdCB4PSI5NiIgeT0iNDgiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgcng9IjQiIGZpbGw9IiMxMTE4MjciLz4KPHJlY3QgeD0iMTQ0IiB5PSI0OCIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNCIgZmlsbD0iIzExMTgyNyIvPgo8cmVjdCB4PSI0OCIgeT0iOTYiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgcng9IjQiIGZpbGw9IiMxMTE4MjciLz4KPHJlY3QgeD0iOTYiIHk9Ijk2IiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHJ4PSI0IiBmaWxsPSIjMTExODI3Ii8+CjxyZWN0IHg9IjE0NCIgeT0iOTYiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgcng9IjQiIGZpbGw9IiMxMTE4MjciLz4KPHJlY3QgeD0iNDgiIHk9IjE0NCIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNCIgZmlsbD0iIzExMTgyNyIvPgo8cmVjdCB4PSI5NiIgeT0iMTQ0IiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHJ4PSI0IiBmaWxsPSIjMTExODI3Ii8+CjxyZWN0IHg9IjE0NCIgeT0iMTQ0IiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHJ4PSI0IiBmaWxsPSIjMTExODI3Ii8+Cjwvc3ZnPgo=",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iNjQiIGZpbGw9IiMxMTE4MjciLz4KPHJlY3QgeD0iNjQiIHk9IjY0IiB3aWR0aD0iMzg0IiBoZWlnaHQ9IjM4NCIgcng9IjMyIiBmaWxsPSIjMTBiOTgxIi8+CjxyZWN0IHg9IjEyOCIgeT0iMTI4IiB3aWR0aD0iODUiIGhlaWdodD0iODUiIHJ4PSIxMCIgZmlsbD0iIzExMTgyNyIvPgo8cmVjdCB4PSIyNTYiIHk9IjEyOCIgd2lkdGg9Ijg1IiBoZWlnaHQ9Ijg1IiByeD0iMTAiIGZpbGw9IiMxMTE4MjciLz4KPHJlY3QgeD0iMzg0IiB5PSIxMjgiIHdpZHRoPSI4NSIgaGVpZ2h0PSI4NSIgcng9IjEwIiBmaWxsPSIjMTExODI3Ii8+CjxyZWN0IHg9IjEyOCIgeT0iMjU2IiB3aWR0aD0iODUiIGhlaWdodD0iODUiIHJ4PSIxMCIgZmlsbD0iIzExMTgyNyIvPgo8cmVjdCB4PSIyNTYiIHk9IjI1NiIgd2lkdGg9Ijg1IiBoZWlnaHQ9Ijg1IiByeD0iMTAiIGZpbGw9IiMxMTE4MjciLz4KPHJlY3QgeD0iMzg0IiB5PSIyNTYiIHdpZHRoPSI4NSIgaGVpZ2h0PSI4NSIgcng9IjEwIiBmaWxsPSIjMTExODI3Ii8+CjxyZWN0IHg9IjEyOCIgeT0iMzg0IiB3aWR0aD0iODUiIGhlaWdodD0iODUiIHJ4PSIxMCIgZmlsbD0iIzExMTgyNyIvPgo8cmVjdCB4PSIyNTYiIHk9IjM4NCIgd2lkdGg9Ijg1IiBoZWlnaHQ9Ijg1IiByeD0iMTAiIGZpbGw9IiMxMTE4MjciLz4KPHJlY3QgeD0iMzg0IiB5PSIzODQiIHdpZHRoPSI4NSIgaGVpZ2h0PSI4NSIgcng9IjEwIiBmaWxsPSIjMTExODI3Ii8+Cjwvc3ZnPgo=",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4MCIgaGVpZ2h0PSI3MjAiIHZpZXdCb3g9IjAgMCAxMjgwIDcyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjEyODAiIGhlaWdodD0iNzIwIiBmaWxsPSIjMTExODI3Ii8+CjxyZWN0IHg9IjY0IiB5PSI2NCIgd2lkdGg9IjExNTIiIGhlaWdodD0iNTkyIiByeD0iMTIiIGZpbGw9IiMxZjI5MzciLz4KPHR3eHQgeD0iNjQwIiB5PSIzNjAiIGZpbGw9IiMxMGI5ODEiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0OCIgZm9udC13ZWlnaHQ9ImJvbGQiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkZsZXhib3ggR2VuZXJhdG9yPC90ZXh0Pgo8L3N2Zz4K",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
+      "form_factor": "wide"
+    }
+  ],
+  "features": [
+    "Cross Platform",
+    "fast",
+    "simple"
+  ],
+  "shortcuts": [
+    {
+      "name": "New Layout",
+      "short_name": "New",
+      "description": "Start with a fresh flexbox layout",
+      "url": "/?action=new",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMTIiIGZpbGw9IiMxMGI5ODEiLz4KPHBhdGggZD0iTTQ4IDI0VjcyTTI0IDQ4SDcyIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Documentation",
+      "short_name": "Docs",
+      "description": "View flexbox documentation and examples",
+      "url": "/?docs=true",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMTIiIGZpbGw9IiMxMGI5ODEiLz4KPHBhdGggZD0iTTQ4IDMyQzQ4IDMyIDQ4IDQwIDQ4IDQ4TTQ4IDU2SDQ4LjAxTTQ4IDgwQzYzLjQ2NDQgODAgNzYgNjcuNDY0NCA3NiA1MkM3NiAzNi41MzU2IDYzLjQ2NDQgMjQgNDggMjRDMzIuNTM1NiAyNCAyMCAzNi41MzU2IDIwIDUyQzIwIDY3LjQ2NDQgMzIuNTM1NiA4MCA0OCA4MFoiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+} 
